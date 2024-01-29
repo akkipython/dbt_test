@@ -11,7 +11,7 @@
 
 with source_data as (
 
-    select id,name from pokemon
+    select * from local_csv.local_csv_copy
 
 )
 
